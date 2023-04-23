@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Bionic Reading Extension",
+    "version": "1.0",
+    "description": "Changes text to bionic reading characters, I created this to help me focus more :)",
+    "host_permissions": ["<all_urls>"],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }
